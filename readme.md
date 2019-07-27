@@ -4,7 +4,6 @@
 
 Kwun Yeung (kwun@forbole.com) <br>
 Terence Lam (terence@forbole.com) <br>
-Ruoyin Zheng (shilin@forbole.com)
 
 NOTE: This document is a work-in-progress and we are still actively developing it. Your feedback is highly appreciated. Please check our update regularly.
 
