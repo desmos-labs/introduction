@@ -13,6 +13,11 @@ NOTE: This document is a work-in-progress and we are still actively developing i
 - [Background](#background)
 - [Problem Statement](#problem-statement)
 - [Desmos](#desmos)
+  - [The blockchain](#the-blockchain)
+    - [Inflation](#inflation)
+    - [GINI-sensitive sublinear voting power](#gini-sensitive-sublinear-voting-power)
+    - [Minimum commission rate](#minimum-commission-rate)
+  - [The token](#the-token)
 - [Organization](#organization)
   - [Forbole Limited](#forbole-limited)
   - [Big Dipper](#big-dipper)
@@ -44,6 +49,26 @@ Forbole is recognized through its works in Cosmos ecosystem. With this worldwide
 ## Problem Statement
 
 ## Desmos
+
+The name Desmos was inspired from Ancient Greek desmós (δεσμός) which means “bond, relationship”. We use Desmos for both the names of the blockchain and its staking tokens. 
+
+### The blockchain
+
+#### Inflation
+
+[]
+
+#### GINI-sensitive sublinear voting power
+
+[]
+
+#### Minimum commission rate
+
+There has been much debate about the impact that validators charging very low commission has on the Cosmos Hub, particularly with respect to the decentralization of the Cosmos Hub and the sustainability for validator operations [(see Proposal 12 on Cosmos Hub)](https://cosmos.bigdipper.live/proposals/12). While we think that imposing a minimum commission rate in the protocol will set a dangerous precedent of planned economy, we would like to use Desmos as a testbed for a minimum commission rate.  Our proposed minimum commission rate is 15%. 
+
+### The token
+
+It is the native staking token which serves as a license for its holders to contribute to the security and governance in exchange for the incentives
 
 ## Organization and projects
 
