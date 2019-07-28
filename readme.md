@@ -11,7 +11,13 @@ NOTE: This document is a work-in-progress and we are still actively developing i
 
 - [Summary](#summary)
 - [Background](#background)
-- [Team](#team)
+- [Problem Statement](#problem-statement)
+- [Desmos](#desmos)
+- [Organization](#organization)
+  - [Forbole Limited](#forbole-limited)
+  - [Big Dipper](#big-dipper)
+  - [Team](#team)
+- [Roadmap](#roadmap)
 
 ## Summary
 
@@ -35,6 +41,24 @@ In Feb 2019, Forbole completed the famous [Game of Stakes](https://blog.cosmos.n
 
 Forbole is recognized through its works in Cosmos ecosystem. With this worldwide traction, now is the right time to resume the development of decentralized social network. We start with Desmos, which will be a Cosmos ecosystem chain specific for social media. Its first application will be a microblogging platform to be integrated to Big Dipper. With the working prototype of this concept, we have won a prize in [HackAtom Seoul](https://blog.cosmos.network/cosmos-hackatom-seoul-winners-d6badbd0629b) in Jul 2019. 
 
-## Team
+## Problem Statement
+
+## Desmos
+
+## Organization and projects
+
+### Forbole Limited
+
+Forbole Limited (“Forbole”) is a for-profit company limited incorporated in Hong Kong in Oct 2017. The main businesses of Forbole will be technology solution service and digital asset management. Forbole is the team to build Desmos and Big Dipper.
+
+### Big Dipper
+
+Big Dipper, is an award-winning open-source block explorer and delegator tool for Cosmos ecosystem chains used by people from over 130 countries. It is currently exploring [Cosmos Hub](https://cosmos.bigdipper.live/validators?sort=votingPower&dir=-1_), [Iris Hub](https://iris.bigdipper.live/validators?sort=votingPower&dir=-1), [Terra Money](https://terra.bigdipper.live/validators?sort=votingPower&dir=-1), [Kava](https://testnet-1.kava.bigdipper.live/validators?sort=votingPower&dir=-1), [BitSongs](https://testnet-1.bitsong.bigdipper.live/validators?sort=votingPower&dir=-1), [Sentinel](https://explorer.sentinel.co/validators?sort=votingPower&dir=-1), [Cyber Congress](https://cyberd.ai/validators), [LikeChain](http://35.226.174.222/) and [Regen Network](http://bigdipper.regen.network). You can check the repo of Big Dipper [here](https://github.com/forbole/big_dipper).
+
+Another related project is a Bot that monitor the chain when something happened to a specific validator, and send alert through Telegram. It sends alert every 15 seconds, if there is something happened during that time. You may check this [repo](https://github.com/forbole/gaia_bot_monitor).
+
+### Team
 
 We are expanding our distributed team across the globe. If you share the same vision with us to disrupt the status quo in social network, come to join us! Please refer to this [repo](https://github.com/forbole/careers) for the job openings of Forbole.
+
+## Roadmap
