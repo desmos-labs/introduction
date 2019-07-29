@@ -96,17 +96,17 @@ The literal meaning of phanerós is exactly what we want to achieve in Desmos.
 
 ### Minting of Phanero
 
-The value of a social network is reflected by the sum of all quality users engagements on the network. So the design philosophy of the tokenomics of Phanero is to encourage quality users engagements. The minting of Phanero will directly relate to the creation of users' engagement on our microblogging platform. Initially, below engagements will be recognized:
+The value of a social network is reflected by the sum of all quality users engagements on the network. So the design philosophy of the tokenomics of Phanero is to encourage quality users engagements. The minting of Phanero will directly relate to the creation of users' engagement on our microblogging platform. Initially, we suggest below minting method:
 
 | Engagements  | Change of Phanero |
 | --- | ---:|
-| Register an user account | `+ 100` |
-| Post a message | `-  10` |
-| Post a comment on an external message | `-   5` |
-| Receive an external  comment | `+   5` |
-| Receive an external share | `+   3` |
-| Receive an external upvote | `+   2` |
-| Receive an external downvote | `+   1` |
+| Register an user account | ‘+ 100’ |
+| Post a message | ‘-  10’ |
+| Post a comment on an external message | ‘+   5’ |
+| Receive an external  comment | ‘+   5’  |
+| Receive an external share | ‘+   3’  |
+| Receive an external upvote | ‘+   2’  |
+| Receive an external downvote | ‘+   1’  |
 
 The minting method of Phanero can be changed by on-chain governance of Desmos.
 
