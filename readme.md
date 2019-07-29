@@ -13,12 +13,13 @@ NOTE: This document is a work-in-progress and we are still actively developing i
 - [Background](#background)
 - [Problem Statement](#problem-statement)
 - [Desmos](#desmos)
-  - [The blockchain](#the-blockchain)
+  - [Desmos as a chain](#desmos-as-a-chain)
     - [Inflation](#inflation)
     - [GINI-sensitive sublinear voting power](#gini-sensitive-sublinear-voting-power)
     - [Minimum commission rate](#minimum-commission-rate)
-  - [The token](#the-token)
+  - [Desmos as a token](#desmos-as-a-token)
 - [Phanero](#phanero)
+  - [Minting of Phanero](#minting-of-phanero)
 - [Organization](#organization)
   - [Forbole Limited](#forbole-limited)
   - [Big Dipper](#big-dipper)
@@ -53,9 +54,9 @@ Forbole is recognized through its works in Cosmos ecosystem. With this worldwide
 
 The name Desmos was inspired from Ancient Greek desmós (δεσμός) which means “bond, relationship”. We use Desmos for both the names of the blockchain and its staking tokens. 
 
-### The blockchain
+### Desmos as a chain 
 
-Desmos chain is specifically designed for social networking apps. It is built with Cosmos SDK and use Tendermint as consensus engine. While it is very similar to Cosmos Hub, we would like to use it as a testbed of some interesting and experimental settings that may be too costly to be performed on Cosmos Hub. Initially, we would like to test a new inflation rate, a new calculation of share of voting power and implement minimum commission rate.
+Desmos the chain is specifically designed for social networking apps. It is built with Cosmos SDK and use Tendermint as consensus engine. While it is very similar to Cosmos Hub, we would like to use it as a testbed of some interesting and experimental settings that may be too costly to be performed on Cosmos Hub. Initially, we would like to test a new inflation rate, a new calculation of share of voting power and implement minimum commission rate.
 
 #### Inflation
 
@@ -79,11 +80,17 @@ We introduce a modified method to calculate the share of voting power to encoura
 
 There has been much debate about the impact that validators charging very low commission has on the Cosmos Hub, particularly with respect to the decentralization of the Cosmos Hub and the sustainability for validator operations [(see Proposal 12 on Cosmos Hub)](https://cosmos.bigdipper.live/proposals/12). While we think that imposing a minimum commission rate in the protocol will set a dangerous precedent of planned economy, we would like to use Desmos as a testbed for a minimum commission rate.  Our proposed minimum commission rate is 15%. 
 
-### The token
+### Desmos as a token 
 
-It is the native staking token which serves as a license for its holders to contribute to the security and governance in exchange for the incentives
+Desmos the token is the native staking token on Desmos chain which serves as a license for its holders to contribute to the security and governance in exchange for the incentives.
 
-## Phanero
+## Phanero 
+
+Phanero [fəˈnærəʊ] is the fee token on the microblogging platform. The name is inspired from Ancient Greek phanerós (φανερός) which means “visible, manifest, evident”.  
+
+### Minting of Phanero
+
+We expect the minting of Phanero will directly reflect the creation of users' engagement on microblogging. For example, an account will mint one Phanero for every one upvote it has received. We are still studying if we need to use an independent fee token or we can use use Desmos for such purpose.
 
 ## Organization and projects
 
