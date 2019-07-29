@@ -5,7 +5,7 @@
 Kwun Yeung (kwun@forbole.com) <br>
 Terence Lam (terence@forbole.com) <br>
 
-NOTE: This document is a work-in-progress and we are still actively developing it. Your feedback is highly appreciated. Please check our update regularly.
+NOTE: This document is a work-in-progress and we are still actively developing it. It is subject to change. Your feedback is highly appreciated. Please check our update regularly.
 
 ## Table of Contents
 
@@ -18,6 +18,7 @@ NOTE: This document is a work-in-progress and we are still actively developing i
     - [GINI-sensitive sublinear voting power](#gini-sensitive-sublinear-voting-power)
     - [Minimum commission rate](#minimum-commission-rate)
   - [The token](#the-token)
+- [Phanero](#phanero)
 - [Organization](#organization)
   - [Forbole Limited](#forbole-limited)
   - [Big Dipper](#big-dipper)
@@ -54,13 +55,25 @@ The name Desmos was inspired from Ancient Greek desmós (δεσμός) which mea
 
 ### The blockchain
 
+Desmos chain is specifically designed for social networking apps. It is built with Cosmos SDK and use Tendermint as consensus engine. While it is very similar to Cosmos Hub, we would like to use it as a testbed of some interesting and experimental settings that may be too costly to be performed on Cosmos Hub. Initially, we would like to test a new inflation rate, a new calculation of share of voting power and implement minimum commission rate.
+
 #### Inflation
 
-[]
+We will use the same calculation method for inflation as that of Cosmos Hub. The difference is that we will halve the range of “7% to 20%” to “3.5% to 10%”. We expect Desmos will process meaningful transactions in terms of tokenized social network engagements early on and hence this new inflation rate is sufficient to incentivize staking while avoiding too much dilution on the intrinsic value of Desmos token.
 
 #### GINI-sensitive sublinear voting power
 
-[]
+Decentralization is a controversial topic on every blockchain. Once the share of voting power is not sufficiently decentralized, it may create problems like the rich get richer which may then discourage the participation of validators with less financial resources. 
+
+We introduce a modified method to calculate the share of voting power to encourage Desmos hodlers (which include validators with skin in the game) to distribute their delegations across a number of validators. Under the new scheme, the effective share of voting power of a validator, VP<sub>(eff)</sub>, will be calculated as follows:
+
+##### VP<sub>(eff)</sub> = (1 - G) * VP<sub>(linear)</sub> + G * VP<sub>(log)</sub> , where:
+
+   1. VP<sub>(linear)</sub> is the share of voting power when it is calculated using normal voting power<br>
+   2. VP<sub>(log)</sub> is the share of voting power when it is calculated using the logarithm of voting power<br>
+   3. G is a dynamic number which has a positive correlation to the GINI index on the distribution of linear voting power across the active validators<br>
+
+(add the calculation of G)
 
 #### Minimum commission rate
 
@@ -69,6 +82,8 @@ There has been much debate about the impact that validators charging very low co
 ### The token
 
 It is the native staking token which serves as a license for its holders to contribute to the security and governance in exchange for the incentives
+
+## Phanero
 
 ## Organization and projects
 
