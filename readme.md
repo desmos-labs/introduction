@@ -50,6 +50,12 @@ Forbole is recognized through its works in Cosmos ecosystem. With this worldwide
 
 ## Problem Statement
 
+Social networks have created more problems than before. These include the unresting scams and spams, the security loopholes, the privacy breaches and the oligopolistic behaviours of a handful of social network behemoths that infringe users’ interests and harm the industry as a whole. 
+
+The root of the above problems is the structural deficiency of the business model of these centralized social networks. We believe a social network of the users, by the users, for the users will be a solution to reshape social network. 
+
+Desmos has an initiative to build an ecosystem of decentralized social networks. We advocate for a new business model and a new mindset of social networking.
+
 ## Desmos
 
 The name Desmos was inspired from Ancient Greek desmós (δεσμός) which means “bond, relationship”. We use Desmos for both the names of the blockchain and its staking tokens. 
