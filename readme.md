@@ -86,11 +86,29 @@ Desmos the token is the native staking token on Desmos chain which serves as a l
 
 ## Phanero 
 
-Phanero [fəˈnærəʊ] is the fee token on the microblogging platform. The name is inspired from Ancient Greek phanerós (φανερός) which means “visible, manifest, evident”.  
+Phanero [fəˈnærəʊ] is the fee token on the microblogging platform. The name is inspired from Ancient Greek phanerós (φανερός) which means “visible, manifest, evident”. We first knew about this word from Jae Kwon, the cofounder of Cosmos, in his speech in CryptoEconomics Security Conference 2017 (click [here](https://youtu.be/8Eex-wQ5yYU?t=23) for the speech):
+
+> “… I feel like, between crypto and economics there’s another word that’s missing which stands for the transparency, so maybe crypto economics should be crypto phanerós economics …”
+
+> “… there’s this duality between hiding something and sharing something, and what blockchain does or what bitcoin has done it’s shown us a way to coordinate ourselves in a new way by using cryptography to share information and not share information in ways that were not possible before and thereby creating a new ecosystem.”
+
+The literal meaning of phanerós is exactly what we want to achieve in Desmos.  
 
 ### Minting of Phanero
 
-We expect the minting of Phanero will directly reflect the creation of users' engagement on microblogging. For example, an account will mint one Phanero for every one upvote it has received. We are still studying if we need to use an independent fee token or we can use use Desmos for such purpose.
+The value of a social network is reflected by the sum of all quality users engagements on the network. So the design philosophy of the tokenomics of Phanero is to encourage quality users engagements. The minting of Phanero will directly relate to the creation of users' engagement on our microblogging platform. Initially, below engagements will be recognized:
+
+| Engagements  | Change of Phanero |
+| --- | ---:|
+| Register an user account | `+ 100` |
+| Post a message | `-  10` |
+| Post a comment on an external message | `-   5` |
+| Receive an external  comment | `+   5` |
+| Receive an external share | `+   3` |
+| Receive an external upvote | `+   2` |
+| Receive an external downvote | `+   1` |
+
+The minting method of Phanero can be changed by on-chain governance of Desmos.
 
 ## Organization and projects
 
