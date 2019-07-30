@@ -87,14 +87,19 @@ Below is the scenario analysis for VP<sub>(eff)</sub> under various GINI coeffic
 
 GINI coefficient = 0.68
 
+![alt text](https://github.com/desmos-labs/introduction/blob/master/Effective%20VP%20-%20Cosmos%20Hub%2020190730.png)
+
 ##### Scenario 2
 
 GINI coefficient = 0.47 (similar to the United States in 2014)
 
+![alt text](https://github.com/desmos-labs/introduction/blob/master/Effective%20VP%20-%20Gini%200.47.png)
 
 ##### Scenario 3
 
 GINI coefficient = 0.248 (similar to Denmark in 2011)
+
+![alt text](https://github.com/desmos-labs/introduction/blob/master/Effective%20VP%20-%20Gini%200.248.png)
 
 #### Minimum commission rate
 
