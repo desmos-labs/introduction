@@ -80,7 +80,7 @@ We introduce a modified method to calculate the share of voting power to encoura
    2. VP<sub>(log)</sub> is the share of voting power when it is calculated using the logarithm of voting power<br>
    3. G is the GINI coefficient calculated based on the linear voting power across the active validators<br>
 
-(add the calculation of G)
+(add scenario analysis)
 
 #### Minimum commission rate
 
@@ -106,13 +106,13 @@ The value of a social network is reflected by the sum of all quality users engag
 
 | Engagements  | Change of Phanero |
 | --- | ---:|
-| Register an user account | ‘+ 100’ |
-| Post a message | ‘-  10’ |
-| Post a comment on an external message | ‘+   5’ |
-| Receive an external  comment | ‘+   5’  |
-| Receive an external share | ‘+   3’  |
-| Receive an external upvote | ‘+   2’  |
-| Receive an external downvote | ‘+   1’  |
+| Register an user account | `+ 100` |
+| Post a message | `-  10` |
+| Post a comment on an external message | `+   5` |
+| Receive an external  comment | `+   5`  |
+| Receive an external share | `+   3`  |
+| Receive an external upvote | `+   2`  |
+| Receive an external downvote | `+   1`  |
 
 The minting method of Phanero can be changed by on-chain governance of Desmos.
 
