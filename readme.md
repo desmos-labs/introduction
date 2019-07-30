@@ -81,11 +81,24 @@ We introduce a modified method to calculate the share of voting power to encoura
    2. VP<sub>(log)</sub> is the share of voting power when it is calculated using the logarithm of voting power<br>
    3. G is the GINI coefficient calculated based on the linear voting power across the active validators<br>
 
-(add scenario analysis)
+Below is the scenario analysis for VP<sub>(eff)</sub> under various GINI coefficients.
+
+##### Scenario 1: Cosmos Hub as of 30 Jul 2019
+
+GINI coefficient = 0.68
+
+##### Scenario 2
+
+GINI coefficient = 0.47 (similar to the United States in 2014)
+
+
+##### Scenario 3
+
+GINI coefficient = 0.248 (similar to Denmark in 2011)
 
 #### Minimum commission rate
 
-There has been much debate about the impact that validators charging very low commission has on the Cosmos Hub, particularly with respect to the decentralization of the Cosmos Hub and the sustainability for validator operations [(see Proposal 12 on Cosmos Hub)](https://cosmos.bigdipper.live/proposals/12). While we think that imposing a minimum commission rate in the protocol will set a dangerous precedent of planned economy, we would like to use Desmos as a testbed for a minimum commission rate.  Our proposed minimum commission rate is 15%. 
+(We are considering a mechanism of minimum commission rate.)
 
 ### Desmos as a token 
 
