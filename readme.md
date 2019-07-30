@@ -20,6 +20,7 @@ NOTE: This document is a work-in-progress and we are still actively developing i
   - [Desmos as a token](#desmos-as-a-token)
 - [Phanero](#phanero)
   - [Minting of Phanero](#minting-of-phanero)
+- [Initial distribution of Desmos](#initial-distribution-of-desmos)
 - [Organization](#organization)
   - [Forbole Limited](#forbole-limited)
   - [Big Dipper](#big-dipper)
@@ -116,11 +117,15 @@ The value of a social network is reflected by the sum of all quality users engag
 
 The minting method of Phanero can be changed by on-chain governance of Desmos.
 
+## Initial distribution of Desmos
+
+On most of the PoS blockchains, the distribution of ownership of stakes has a direct impact on the degree of decentralization. We plan to improve the decentralization of initial distribution of Desmos to provide a fairer chance for different people to participate through financial capital and sweat capital while ensure the security level of chain.
+
 ## Organization and projects
 
 ### Forbole Limited
 
-Forbole Limited (“Forbole”) is a for-profit company limited incorporated in Hong Kong in Oct 2017. The main businesses of Forbole will be technology solution service and digital asset management. Forbole is the team to build Desmos and Big Dipper.
+Forbole Limited (“Forbole”) is a for-profit company limited incorporated in Hong Kong in Oct 2017. The main businesses of Forbole will be technology solution service and digital asset management. Forbole is the team to initiate Desmos and Big Dipper.
 
 ### Big Dipper
 
