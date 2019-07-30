@@ -75,7 +75,7 @@ Decentralization is a controversial topic on every blockchain. Once the share of
 
 We introduce a modified method to calculate the share of voting power to encourage Desmos hodlers (which include validators with skin in the game) to distribute their delegations across a number of validators. Under the new scheme, the effective share of voting power of a validator, VP<sub>(eff)</sub>, will be calculated as follows:
 
-##### VP<sub>(eff)</sub> = (1 - G^2) * VP<sub>(linear)</sub> + G^2 * VP<sub>(log)</sub> , where:
+##### VP<sub>(eff)</sub> = (1 - G^4) * VP<sub>(linear)</sub> + G^4 * VP<sub>(log)</sub> , where:
 
    1. VP<sub>(linear)</sub> is the share of voting power when it is calculated using normal voting power<br>
    2. VP<sub>(log)</sub> is the share of voting power when it is calculated using the logarithm of voting power<br>
