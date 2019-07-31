@@ -18,6 +18,7 @@ NOTE: This document is a work-in-progress and we are still actively developing i
     - [GINI-sensitive sublinear voting power](#gini-sensitive-sublinear-voting-power)
     - [Minimum commission rate](#minimum-commission-rate)
   - [Desmos as a token](#desmos-as-a-token)
+  - [Magpie module](#magpie-module)
 - [Phanero](#phanero)
   - [Minting of Phanero](#minting-of-phanero)
 - [Initial distribution of Desmos](#initial-distribution-of-desmos)
@@ -103,11 +104,15 @@ GINI coefficient = 0.248 (similar to Denmark in 2011)
 
 #### Minimum commission rate
 
-(We are considering a mechanism of minimum commission rate.)
+(We are considering some mechanisms to avoid price war. We are interested in applying this [suggestion](https://forum.cosmos.network/t/proposal-are-validators-charging-0-commission-harmful-to-the-success-of-the-cosmos-hub/2505/33?u=bharvest) by Hyung of B-Harvest)
 
 ### Desmos as a token 
 
 Desmos the token is the native staking token on Desmos chain which serves as a license for its holders to contribute to the security and governance in exchange for the incentives.
+
+### Magpie module
+
+[]
 
 ## Phanero 
 
