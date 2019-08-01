@@ -15,7 +15,7 @@ NOTE: This document is a work-in-progress and we are still actively developing i
 - [Desmos](#desmos)
   - [Desmos as a chain](#desmos-as-a-chain)
     - [Inflation](#inflation)
-    - [GINI-sensitive sublinear voting power](#gini-sensitive-sublinear-voting-power)
+    - [Gini-sensitive sublinear voting power](#gini-sensitive-sublinear-voting-power)
     - [Minimum commission rate](#minimum-commission-rate)
   - [Desmos as a token](#desmos-as-a-token)
   - [Magpie module](#magpie-module)
@@ -70,37 +70,34 @@ Desmos the chain is specifically designed for social networking apps. It is buil
 
 We will use the same calculation method for inflation as that of Cosmos Hub. The difference is that we will halve the range of “7% to 20%” to “3.5% to 10%”. We expect Desmos will process meaningful transactions in terms of tokenized social network engagements early on and hence this new inflation rate is sufficient to incentivize staking while avoiding too much dilution on the intrinsic value of Desmos token.
 
-#### GINI-sensitive sublinear voting power
+#### Gini-sensitive sublinear voting power
 
 Decentralization is a controversial topic on every blockchain. Once the share of voting power is not sufficiently decentralized, it may create problems like the rich get richer which may then discourage the participation of validators with less financial resources. 
 
 We introduce a modified method to calculate the share of voting power to encourage Desmos hodlers (which include validators with skin in the game) to distribute their delegations across a number of validators. Under the new scheme, the effective share of voting power of a validator, VP<sub>(eff)</sub>, will be calculated as follows:
 
-##### VP<sub>(eff)</sub> = (1 - G^4) * VP<sub>(linear)</sub> + G^4 * VP<sub>(log)</sub> , where:
+##### VP<sub>(eff)</sub> = (1 - G^3) * VP<sub>(linear)</sub> + G^3 * VP<sub>(log)</sub> , where:
 
    1. VP<sub>(linear)</sub> is the share of voting power when it is calculated using normal voting power<br>
    2. VP<sub>(log)</sub> is the share of voting power when it is calculated using the logarithm of voting power<br>
-   3. G is the GINI coefficient calculated based on the linear voting power across the active validators<br>
+   3. G is the Gini coefficient calculated based on the linear voting power across the active validators<br>
 
-Below is the scenario analysis for VP<sub>(eff)</sub> under various GINI coefficients.
+Below is the scenario analysis for VP<sub>(eff)</sub> under various Gini coefficients.
 
 ##### Scenario 1: Cosmos Hub as of 30 Jul 2019
 
-GINI coefficient = 0.68
+Gini coefficient = 0.68
 
-![alt text](https://github.com/desmos-labs/introduction/blob/master/Effective%20VP%20-%20Cosmos%20Hub%2020190730.png)
 
 ##### Scenario 2
 
-GINI coefficient = 0.47 (similar to the United States in 2014)
+Gini coefficient = 0.47 (similar to the United States in 2014)
 
-![alt text](https://github.com/desmos-labs/introduction/blob/master/Effective%20VP%20-%20Gini%200.47.png)
 
 ##### Scenario 3
 
-GINI coefficient = 0.248 (similar to Denmark in 2011)
+Gini coefficient = 0.248 (similar to Denmark in 2011)
 
-![alt text](https://github.com/desmos-labs/introduction/blob/master/Effective%20VP%20-%20Gini%200.248.png)
 
 #### Minimum commission rate
 
