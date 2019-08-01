@@ -88,16 +88,27 @@ Below is the scenario analysis for VP<sub>(eff)</sub> under various Gini coeffic
 
 Gini coefficient = 0.68
 
+[![Case 1 Cosmos Hub](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20%20Case%201%20-%20Cosmos%20Hub.png)](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%201%20-%20Cosmos%20Hub.tsv)
 
 ##### Scenario 2
 
 Gini coefficient = 0.47 (similar to the United States in 2014)
 
+[![Case 2](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20%20Case%202.png)](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%202.tsv)
 
 ##### Scenario 3
 
 Gini coefficient = 0.248 (similar to Denmark in 2011)
 
+[![Case 3](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20%20Case%203.png)](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%203.tsv)
+
+One of the possible downside of sublinear voting power is that it may encourage big Desmos holders to spread its own stake across multiple nodes. We try to mitigate this risk by:
+
+  - Target our early-stage fundraising to validators with proven track record
+  - Impose a more stringent cap to the investment allowed per participation
+  - Allocate more distribution to a series of incentivised campaigns
+
+While this risk cannot be eliminated, we think this is a good experiment for the Cosmos ecosystem at large.
 
 #### Minimum commission rate
 
