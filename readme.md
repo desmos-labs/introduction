@@ -38,7 +38,7 @@ After experiencing various blockchain projects, we hope to make Desmos a “vali
 
 ## Background
 
-In mid of 2017, after nearly 8 years of partnership in running a digital agency, Kwun and Terence would like to apply blockchain technology to change social networks which are monopolized by centralized powers who abuse users’ privacy to maximize their own benefits. They come up with an idea of a decentralized business network to encourage people to help other to succeed by referring suitable business and career opportunities with each other. They then cofounded Forbole Limited in Oct 2017 to pursue this goal. 
+In mid of 2017, after nearly 8 years of partnership in running a digital agency, Kwun and Terence would like to apply blockchain technology to change social networks which are monopolized by centralized powers who abuse users’ privacy to maximize their own benefits. They came up with an idea of a decentralized business network to encourage people to help other to succeed by referring suitable business and career opportunities with each other. They then cofounded Forbole Limited in Oct 2017 to pursue this goal. 
 
 In late 2017, while searching for the suitable technology to build this decentralized business network, they stopped at Tendermint. They further discovered Cosmos project and were fascinated by its vision. They started to use Cosmos SDK, which was still in its early stage, to build a testnet.
 
@@ -52,7 +52,7 @@ Forbole is recognized through its works in Cosmos ecosystem. With this worldwide
 
 ## Problem Statement
 
-Social networks have created more problems than before. These include the unresting scams and spams, the security loopholes, the privacy breaches and the oligopolistic behaviours of a handful of social network behemoths that infringe users’ interests and harm the industry as a whole. 
+Social networks have created more problems than before. These include the surging number of scams and spams, fakes news, the security loopholes, the privacy breaches and the oligopolistic behaviours of a handful of social network behemoths that infringe users’ interests and harm the industry as a whole. 
 
 The root of the above problems is the structural deficiency of the business model of these centralized social networks. We believe a social network of the users, by the users, for the users will be a solution to reshape social network. 
 
