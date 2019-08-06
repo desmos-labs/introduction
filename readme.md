@@ -23,6 +23,7 @@ NOTE: This document is a work-in-progress and we are still actively developing i
   - [Minting of Phanero](#minting-of-phanero)
 - [Initial distribution of Desmos](#initial-distribution-of-desmos)
   - [Initial Supply](#initial-supply)
+  - [Fundraisers](#fundraisers)
 - [Validators](#validators)
 - [Organization](#organization)
   - [Forbole Limited](#forbole-limited)
@@ -177,17 +178,21 @@ This pool will be distributed to qualified participants in a series of incentivi
 
 #### Fundraisers: 60%
 
-We plan to make three rounds of private fundraisers (through simple agreement for future tokens, “SAFT”) before mainnet launch.
+See blow section.
 
-##### First round (20%): 
+### Fundraisers
+
+60% of the initial supply will be distributed throught three rounds of private fundraisers (through simple agreement for future tokens, “SAFT”) before mainnet launch.
+
+#### First round (20%): 
 
 We target to raise USD1 million at USD5 million valuation cap. This round is strictly invited-only. The target SAFT buyers are the experienced and engaged validators and investors on Cosmos ecosystem chains.
 
-##### Second round (20%): 
+#### Second round (20%): 
 
 [to be announced]
 
-##### Third round (30%): 
+#### Third round (30%): 
 
 [to be announced]
 
