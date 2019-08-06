@@ -96,13 +96,13 @@ Gini coefficient = 0.68
 
 Gini coefficient = 0.248 (similar to Denmark in 2011)
 
-[![Case 2](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20%20Case%202.png)](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%202.tsv)
+[![Case 2](hhttps://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%202.png)](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%202.tsv)
 
 ##### Scenario 3
 
 Gini coefficient = 0.47 (similar to the United States in 2014)
 
-[![Case 3](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20%20Case%203.png)](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%203.tsv)
+[![Case 3](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%203.png)](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%203.tsv)
 
 One of the possible downside of sublinear voting power is that it may encourage big Desmos holders to spread its own stake across multiple nodes. We try to mitigate this risk by:
 
