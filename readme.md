@@ -181,7 +181,7 @@ We plan to make three rounds of private fundraisers (through simple agreement fo
 
 ##### First round (20%): 
 
-We target to raise USD1 million at USD5 million valuation cap. The target SAFT buyers are the experienced and engaged validators and investors on Cosmos ecosystem chains. We believe this is an attractive valuation which we hope to let as many contributors to join as possible. 
+We target to raise USD1 million at USD5 million valuation cap. This round is strictly invited-only. The target SAFT buyers are the experienced and engaged validators and investors on Cosmos ecosystem chains.
 
 ##### Second round (20%): 
 
@@ -214,3 +214,9 @@ Another related project is a Bot that monitor the chain when something happened 
 We are expanding our distributed team across the globe. If you share the same vision with us to disrupt the status quo in social network, come to join us! Please refer to this [repo](https://github.com/forbole/careers) for the job openings of Forbole.
 
 ## Roadmap
+
+| Time  | Milestones |
+| --- | ---|
+| Aug - Sept 2019 | Communicate with potential partnering validators and community contributors |
+| Before Sept 2019 | Officially announce Desmos project |
+| Nov 2019 | launch the first incentivised testnet |
