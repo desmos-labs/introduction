@@ -97,7 +97,7 @@ Gini coefficient = 0.68
 
 Gini coefficient = 0.248 (similar to Denmark in 2011)
 
-[![Case 2](hhttps://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%202.png)](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%202.tsv)
+[![Case 2](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%202.png)](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%202.tsv)
 
 ##### Scenario 3
 
