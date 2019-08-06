@@ -5,7 +5,7 @@
 Kwun Yeung (kwun@forbole.com) <br>
 Terence Lam (terence@forbole.com) <br>
 
-NOTE: This document is a work-in-progress and we are still actively developing it. It is subject to change. Your feedback is highly appreciated. Please check our update regularly.
+NOTE: This document is a work-in-progress and we are still actively developing it. All of the contents are subject to change. Your feedback is highly appreciated. Please check our update regularly.
 
 ## Table of Contents
 
@@ -22,6 +22,8 @@ NOTE: This document is a work-in-progress and we are still actively developing i
 - [Phanero](#phanero)
   - [Minting of Phanero](#minting-of-phanero)
 - [Initial distribution of Desmos](#initial-distribution-of-desmos)
+  - [Initial Supply](#initial-supply)
+- [Validators](#validators)
 - [Organization](#organization)
   - [Forbole Limited](#forbole-limited)
   - [Big Dipper](#big-dipper)
@@ -150,7 +152,50 @@ The minting method of Phanero can be changed by on-chain governance of Desmos.
 
 ## Initial distribution of Desmos
 
-On most of the PoS blockchains, the distribution of ownership of stakes has a direct impact on the degree of decentralization. We plan to improve the decentralization of initial distribution of Desmos to provide a fairer chance for different people to participate through financial capital and sweat capital while ensure the security level of chain.
+On most of the PoS blockchains, the distribution of tokens has a tremendous impact on the degree of decentralization. We hope to provide a fairer chance for different people to participate through different types of efforts while ensure the security level of the chain.
+
+### Initial supply 
+
+The initial supply will be around 100,000,000 Desmos. This will be distributed in stages in approximately 12 months after we officially announce the project. The target time for this announcement is before the end of Sept 2019.
+
+#### A foundation: 15%
+
+[Note: We are considering both non-profit or  profit type of entity which support the ecosystem by making investment to ecosystem project such that the foundation is self-sustainable. This is subject to further legal opinions.]
+
+#### Forbole: 12.5%
+
+- 5.0%: Incentive pool to early employees (including cofounding members)
+- 7.5% to Forbole Limited
+
+#### Early supporters: 2.5%
+
+This group means the angel investors of Forbole who have made their investment on or before Oct 2018.
+
+#### Community Pool: 10%
+
+This pool will be distributed to qualified participants in a series of incentivised programs before the launch of mainnet. The timing of these programs will relate to various rounds of fundraisers such that our projects, our community and our stakeholders will grow and evolve together.
+
+#### Fundraisers: 60%
+
+We plan to make three rounds of private fundraisers (through simple agreement for future tokens, “SAFT”) before mainnet launch.
+
+##### First round (20%): 
+
+We target to raise USD1 million at USD5 million valuation cap. The target SAFT buyers are the experienced and engaged validators and investors on Cosmos ecosystem chains. We believe this is an attractive valuation which we hope to let as many contributors to join as possible. 
+
+##### Second round (20%): 
+
+[to be announced]
+
+##### Third round (30%): 
+
+[to be announced]
+
+## Validators
+
+We will invite validators with proven track records to join our first testnet. We believe the balance between diversity and quality is very important. As such, we will consider a basket of factors such as technical knowledge, community relationships, languages and locations. 
+
+The limit of validator set at genesis will depend on the performance of the testnets.
 
 ## Organization and projects
 
