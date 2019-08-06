@@ -94,13 +94,13 @@ Gini coefficient = 0.68
 
 ##### Scenario 2
 
-Gini coefficient = 0.47 (similar to the United States in 2014)
+Gini coefficient = 0.248 (similar to Denmark in 2011)
 
 [![Case 2](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20%20Case%202.png)](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%202.tsv)
 
 ##### Scenario 3
 
-Gini coefficient = 0.248 (similar to Denmark in 2011)
+Gini coefficient = 0.47 (similar to the United States in 2014)
 
 [![Case 3](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20%20Case%203.png)](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%203.tsv)
 
