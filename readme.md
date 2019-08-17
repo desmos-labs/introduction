@@ -25,6 +25,8 @@ NOTE: This document is a work-in-progress and we are still actively developing i
   - [Initial Supply](#initial-supply)
   - [Fundraisers](#fundraisers)
 - [Validators](#validators)
+- [Development Plan](#development-plan)
+  - [Marketing](#marketing)
 - [Organization](#organization)
   - [Forbole Limited](#forbole-limited)
   - [Big Dipper](#big-dipper)
@@ -201,6 +203,10 @@ We target to raise USD1 million at USD5 million valuation cap. This round is str
 We will invite validators with proven track records to join our first testnet. We believe the balance between diversity and quality is very important. As such, we will consider a basket of factors such as technical knowledge, community relationships, languages and locations. 
 
 The limit of validator set at genesis will depend on the performance of the testnets.
+
+## Development Plan
+
+### Marketing
 
 ## Organization and projects
 
