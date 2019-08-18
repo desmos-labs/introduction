@@ -5,7 +5,7 @@ __a social networking ecosystem of the users, by the users, for the users__
 Kwun Yeung (kwun@forbole.com)\
 Terence Lam (terence@forbole.com)
 
-NOTE: This document is a work-in-progress and we are still actively developing it. It is subject to change. Your feedback is highly appreciated. Please check our update regularly.
+NOTE: This document is a work-in-progress and we are still actively developing it. All of the contents are subject to change. Your feedback is highly appreciated. Please check our update regularly.
 
 ## Table of Contents
 
@@ -37,6 +37,19 @@ NOTE: This document is a work-in-progress and we are still actively developing i
   - [Phanero](#phanero)
     - [Minting of Phanero](#minting-of-phanero)
   - [Initial distribution of Desmos](#initial-distribution-of-desmos)
+    - [Initial supply](#initial-supply)
+      - [A foundation: 15%](#a-foundation-15)
+      - [Forbole: 12.5%](#forbole-125)
+      - [Early supporters: 2.5%](#early-supporters-25)
+      - [Community Pool: 10%](#community-pool-10)
+      - [Fundraisers: 60%](#fundraisers-60)
+    - [Fundraisers](#fundraisers)
+      - [First round (20%):](#first-round-20)
+      - [Second round (20%):](#second-round-20)
+      - [Third round (30%):](#third-round-30)
+  - [Validators](#validators)
+  - [Development Plan](#development-plan)
+    - [Marketing](#marketing)
   - [Organization and projects](#organization-and-projects)
     - [Forbole Limited](#forbole-limited)
     - [Big Dipper](#big-dipper)
@@ -107,15 +120,15 @@ Gini coefficient = 0.68
 
 ##### Scenario 2
 
-Gini coefficient = 0.47 (similar to the United States in 2014)
+Gini coefficient = 0.248 (similar to Denmark in 2011)
 
-[![Case 2](Gini-adjusted%20VP%20%20Case%202.png)](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%202.tsv)
+[![Case 2](Gini-adjusted%20VP%20Case%202.png)](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%202.tsv)
 
 ##### Scenario 3
 
-Gini coefficient = 0.248 (similar to Denmark in 2011)
+Gini coefficient = 0.47 (similar to the United States in 2014)
 
-[![Case 3](Gini-adjusted%20VP%20%20Case%203.png)](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%203.tsv)
+[![Case 3](Gini-adjusted%20VP%20Case%203.png)](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%203.tsv)
 
 One of the possible downside of sublinear voting power is that it may encourage big Desmos holders to spread its own stake across multiple nodes. We try to mitigate this risk by:
 
@@ -266,7 +279,58 @@ The minting method of Phanero can be changed by on-chain governance of Desmos.
 
 ## Initial distribution of Desmos
 
-On most of the PoS blockchains, the distribution of ownership of stakes has a direct impact on the degree of decentralization. We plan to improve the decentralization of initial distribution of Desmos to provide a fairer chance for different people to participate through financial capital and sweat capital while ensure the security level of chain.
+On most of the PoS blockchains, the distribution of tokens has a tremendous impact on the degree of decentralization. We hope to provide a fairer chance for different people to participate through different types of efforts while ensure the security level of the chain.
+
+### Initial supply 
+
+The initial supply will be around 100,000,000 Desmos. This will be distributed in stages in approximately 12 months after we officially announce the project. The target time for this announcement is before the end of Sept 2019.
+
+#### A foundation: 15%
+
+[Note: We are considering both non-profit or  profit type of entity which support the ecosystem by making investment to ecosystem project such that the foundation is self-sustainable. This is subject to further legal opinions.]
+
+#### Forbole: 12.5%
+
+- 5.0%: Incentive pool to early employees (including cofounding members)
+- 7.5% to Forbole Limited
+
+#### Early supporters: 2.5%
+
+This group means the angel investors of Forbole who have made their investment on or before Oct 2018.
+
+#### Community Pool: 10%
+
+This pool will be distributed to qualified participants in a series of incentivised programs before the launch of mainnet. The timing of these programs will relate to various rounds of fundraisers such that our projects, our community and our stakeholders will grow and evolve together.
+
+#### Fundraisers: 60%
+
+See blow section.
+
+### Fundraisers
+
+60% of the initial supply will be distributed throught three rounds of private fundraisers (through simple agreement for future tokens, “SAFT”) before mainnet launch.
+
+#### First round (20%): 
+
+We target to raise USD1 million at USD5 million valuation cap. This round is strictly invited-only. The target SAFT buyers are the experienced and engaged validators and investors on Cosmos ecosystem chains.
+
+#### Second round (20%): 
+
+[to be announced]
+
+#### Third round (30%): 
+
+[to be announced]
+
+## Validators
+
+We will invite validators with proven track records to join our first testnet. We believe the balance between diversity and quality is very important. As such, we will consider a basket of factors such as technical knowledge, community relationships, languages and locations. 
+
+The limit of validator set at genesis will depend on the performance of the testnets.
+
+## Development Plan
+
+### Marketing
 
 ## Organization and projects
 
@@ -285,3 +349,9 @@ Another related project is a Bot that monitor the chain when something happened 
 We are expanding our distributed team across the globe. If you share the same vision with us to disrupt the status quo in social network, come to join us! Please refer to this [repo](https://github.com/forbole/careers) for the job openings of Forbole.
 
 ## Roadmap
+
+| Time  | Milestones |
+| --- | ---|
+| Aug - Sept 2019 | Communicate with potential partnering validators and community contributors |
+| Before Sept 2019 | Officially announce Desmos project |
+| Nov 2019 | launch the first incentivised testnet |
