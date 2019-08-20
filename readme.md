@@ -18,7 +18,6 @@ NOTE: This document is a work-in-progress and we are still actively developing i
     - [Desmos as a chain](#desmos-as-a-chain)
       - [Inflation](#inflation)
       - [Gini-sensitive sublinear voting power](#gini-sensitive-sublinear-voting-power)
-        - [VP<sub>(eff)</sub> = (1 - G^3) * VP<sub>(linear)</sub> + G^3 * VP<sub>(log)</sub> , where:](#vpsubeffsub--1---g3--vpsublinearsub--g3--vpsublogsub--where)
         - [Scenario 1: Cosmos Hub as of 30 Jul 2019](#scenario-1-cosmos-hub-as-of-30-jul-2019)
         - [Scenario 2](#scenario-2)
         - [Scenario 3](#scenario-3)
