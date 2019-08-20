@@ -12,8 +12,8 @@ NOTE: This document is a work-in-progress and we are still actively developing i
 - [Desmos](#desmos)
   - [Table of Contents](#table-of-contents)
   - [Summary](#summary)
-  - [Background](#background)
   - [Problem Statement](#problem-statement)
+  - [Solutions - An Overview](#solutions-an-overview)
   - [Desmos](#desmos-1)
     - [Desmos as a chain](#desmos-as-a-chain)
       - [Inflation](#inflation)
@@ -53,7 +53,9 @@ NOTE: This document is a work-in-progress and we are still actively developing i
   - [Organization and projects](#organization-and-projects)
     - [Forbole Limited](#forbole-limited)
     - [Big Dipper](#big-dipper)
-    - [Team](#team)
+  - [Team](#team)
+    - [Background](#background)
+    - [Careers](#careers)
   - [Roadmap](#roadmap)
 
 ## Summary
@@ -64,20 +66,6 @@ Initially, we will bootstrap early users by building a decentralized microbloggi
 
 After experiencing various blockchain projects, we hope to make Desmos a “validators first” project. We believe engaging validators are crucial to the success of Desmos, as they are not only our security guards but also our community builders. This is particularly important to a social network-specific chain like Desmos. We will design our incentivized program and fundraiser to reflect this “validators first” philosophy.
 
-## Background
-
-In mid of 2017, after nearly 8 years of partnership in running a digital agency, Kwun and Terence would like to apply blockchain technology to change social networks which are monopolized by centralized powers who abuse users’ privacy to maximize their own benefits. They came up with an idea of a decentralized business network to encourage people to help other to succeed by referring suitable business and career opportunities with each other. They then cofounded Forbole Limited in Oct 2017 to pursue this goal.
-
-In late 2017, while searching for the suitable technology to build this decentralized business network, they stopped at Tendermint. They further discovered Cosmos project and were fascinated by its vision. They started to use Cosmos SDK, which was still in its early stage, to build a testnet.
-
-They knew that they needed some validators to run the testnet. So they started to learn how to become a validator by participating in the testnet of Cosmos Hub and the [validators community](https://blog.cosmos.network/q-a-session-three-cosmos-validators-share-their-experience-ce6501a5d61c).
-
-At the same time, they also needed a blockchain explorer for Forbole’s testnet. They were not satisfied with the official explorer and hence they decided to build one. In August 2018, HackAtom 3 was announced. So they improved the UI design of their explorer and gave it a name to participate the competition. This was how [Big Dipper](http://cosmos.bigdipper.live) was born. It earned a prize in [HackAtom 3](https://blog.cosmos.network/hackatom3-winners-announced-95933b6e23b5).
-
-In Feb 2019, Forbole completed the famous [Game of Stakes](https://blog.cosmos.network/game-of-stakes-closing-ceremonies-eddb71d3b114) as a named winner in the Never Jailed category.
-
-Forbole is recognized through its works in Cosmos ecosystem. With this worldwide traction, now is the right time to resume the development of decentralized social network. We start with Desmos, which will be a Cosmos ecosystem chain specific for social media. Its first application will be a microblogging platform to be integrated to Big Dipper. With the working prototype of this concept, we have won a prize in [HackAtom Seoul](https://blog.cosmos.network/cosmos-hackatom-seoul-winners-d6badbd0629b) in Jul 2019.
-
 ## Problem Statement
 
 Social networks have created more problems than before. These include the surging number of scams and spams, fakes news, the security loopholes, the privacy breaches and the oligopolistic behaviours of a handful of social network behemoths that infringe users’ interests and harm the industry as a whole.
@@ -86,9 +74,13 @@ The root of the above problems is the structural deficiency of the business mode
 
 Desmos has an initiative to build an ecosystem of decentralized social networks. We advocate for a new business model and a new mindset of social networking.
 
+## Solutions - An Oveview
+
+
+
 ## Desmos
 
-The name Desmos was inspired from Ancient Greek desmós (δεσμός) which means “bond, relationship”. We use Desmos for both the names of the blockchain and its staking tokens.
+The name Desmos was inspired from Ancient Greek desmós (δεσμός) which means “bond, relationship”. We use Desmos for both the names of the blockchain and its native staking token.
 
 ### Desmos as a chain
 
@@ -150,11 +142,11 @@ Desmos the token is the native staking token on Desmos chain which serves as a l
 
 #### Magpie
 
-To provide identity and accountibilty of validators in different chains on Desmos, we need a bridging mechansim to link between the identity from the working chain, e.g. Cosmos Hub, to a temporary identity on Desomos which can operate corresponding social interactions. [`Magpie` (bridge)](https://en.wikipedia.org/wiki/Qixi_Festival) is serving this purpose.
+To provide identity and accountibilty of validators in different chains on Desmos, we need a bridging mechansim to link between the identity from the working chain, e.g. Cosmos Hub, to a temporary identity on Desmos which can operate corresponding social interactions. [`Magpie` (bridge)](https://en.wikipedia.org/wiki/Qixi_Festival) is serving this purpose.
 
-`Magpie` works like the [`SESSION`](https://en.wikipedia.org/wiki/Session_(computer_science)) of a web application. When a user would like to start a conversation, a temporary Desmos key will be created on the client application. The client application will then sign an empty session message using the key of the working chain and embed the signature to a session creation transaction on Desomos signing with the just created temporary Desmos key.
+`Magpie` works like the [`SESSION`](https://en.wikipedia.org/wiki/Session_(computer_science)) of a web application. When a user would like to start a conversation, a temporary Desmos key will be created on the client application. The client application will then sign an empty session message using the key of the working chain and embed the signature to a session creation transaction on Desmos signing with the just created temporary Desmos key.
 
-When Desmos receives the session creation transaction, it will not only validate to see if the transaction can be processed. It will also validate the embedded working chain signature with the public key provided. If the signature can be validated, it verifies the identity of the working chain and allow the user with this identity to operate any social interactions on Desmos using the temporary key created and stored on the client application.
+When Desmos receives the session creation transaction, it will not only validate to see if the transaction can be processed. It will also validate the embedded working chain signature with the public key provided. If the signature can be validated, it verifies the identity of the working chain and allows the user with this identity to operate any social interactions on Desmos using the temporary key created and stored on the client application.
 
 _(insert an illustration explaining the mechansim)_
 
@@ -212,11 +204,11 @@ MsgUpdateProfile
 
 #### Reputation
 
-The `Reputation` module calculate the reputation of a user based on the activities she has done. The features will be used by other modules to update users' reputation for every chain they have registered on Desmos.
+The `Reputation` module calculates the reputation of a user based on the activities she has done. This feature will be used by other modules to update users' reputations for every chain they have registered on Desmos.
 
 #### Post
 
-The `Post` module is for posting messages on Desomos. Users can also reply to the message, upvote and downvote to a message. These interactions will trigger the `Reputation` module to caluculate the latest `Reputation` of a user and `Minting` module to mint the new `Phanero`.
+The `Post` module is used for posting messages on Desomos. Users can also make comment, upvote and downvote to a message. These interactions will trigger the `Reputation` module to caluculate the latest `Reputation` of a user and `Minting` module to mint the new `Phanero`.
 
 A `Post` object is in ths following structure.
 
@@ -344,7 +336,23 @@ Big Dipper, is an award-winning open-source block explorer and delegator tool fo
 
 Another related project is a Bot that monitor the chain when something happened to a specific validator, and send alert through Telegram. It sends alert every 15 seconds, if there is something happened during that time. You may check this [repo](https://github.com/forbole/gaia_bot_monitor).
 
-### Team
+## Team
+
+### Background
+
+In mid of 2017, after nearly 8 years of partnership in running a digital agency, Kwun and Terence would like to apply blockchain technology to change social networks which are monopolized by centralized powers who abuse users’ privacy to maximize their own benefits. They came up with an idea of a decentralized business network to encourage people to help other to succeed by referring suitable business and career opportunities with each other. They then cofounded Forbole Limited in Oct 2017 to pursue this goal.
+
+In late 2017, while searching for the suitable technology to build this decentralized business network, they stopped at Tendermint. They further discovered Cosmos project and were fascinated by its vision. They started to use Cosmos SDK, which was still in its early stage, to build a testnet.
+
+They knew that they needed some validators to run the testnet. So they started to learn how to become a validator by participating in the testnet of Cosmos Hub and the [validators community](https://blog.cosmos.network/q-a-session-three-cosmos-validators-share-their-experience-ce6501a5d61c).
+
+At the same time, they also needed a blockchain explorer for Forbole’s testnet. They were not satisfied with the official explorer and hence they decided to build one. In August 2018, HackAtom 3 was announced. So they improved the UI design of their explorer and gave it a name to participate the competition. This was how [Big Dipper](http://cosmos.bigdipper.live) was born. It earned a prize in [HackAtom 3](https://blog.cosmos.network/hackatom3-winners-announced-95933b6e23b5).
+
+In Feb 2019, Forbole completed the famous [Game of Stakes](https://blog.cosmos.network/game-of-stakes-closing-ceremonies-eddb71d3b114) as a named winner in the Never Jailed category.
+
+Forbole is recognized through its works in Cosmos ecosystem. With this worldwide traction, now is the right time to resume the development of decentralized social network. We start with Desmos, which will be a Cosmos ecosystem chain specific for social media. Its first application will be a microblogging platform to be integrated to Big Dipper. With the working prototype of this concept, we have won a prize in [HackAtom Seoul](https://blog.cosmos.network/cosmos-hackatom-seoul-winners-d6badbd0629b) in Jul 2019.
+
+### Careers
 
 We are expanding our distributed team across the globe. If you share the same vision with us to disrupt the status quo in social network, come to join us! Please refer to this [repo](https://github.com/forbole/careers) for the job openings of Forbole.
 
