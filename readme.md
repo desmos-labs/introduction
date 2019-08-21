@@ -13,7 +13,7 @@ NOTE: This document is a work-in-progress and we are still actively developing i
   - [Table of Contents](#table-of-contents)
   - [Summary](#summary)
   - [Problem Statement](#problem-statement)
-  - [Solutions - An Overview](#solutions-an-overview)
+  - [Solutions - An Overview](#solutions---an-overview)
   - [Desmos](#desmos-1)
     - [Desmos as a chain](#desmos-as-a-chain)
       - [Inflation](#inflation)
