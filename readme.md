@@ -59,11 +59,15 @@ NOTE: This document is a work-in-progress and we are still actively developing i
 
 ## Summary
 
-Desmos [ˈdɛsmɒs] is a public blockchain for social media applications built with Cosmos SDK and Tendermint. It is similar to Cosmos Hub with different staking and minting modules. The first module of Desmos is `Magpie`, which provides identity and accountability to validators, delegators and other types of stakeholders with a novel and generalizable temporary key pair using browser-based WASM. Desmos will gradually include more modules specifically designed for decentralized social networking and digital advertising applications. It will also serve as a regional Hub in South China and Southeast Asia and a testbed of different interesting parameters and governance method.
+Desmos [ˈdɛsmɒs] is a public blockchain for social media applications. It is similar to Cosmos Hub with different staking and minting modules. It also introduces new modules which are specifically designed for reputation-centric decentralized social networking. 
 
-Initially, we will bootstrap early users by building a decentralized microblogging platform on top of Big Dipper to solve one pain point: the existing and new Cosmonauts do not have a way to know each other through a decentralized and verifiable manner. As Big Dipper is one of the most popular block explorers for Cosmos ecosystem chains, many people who are interested in Cosmos will definitely visit Big Dipper. A decentralized microblogging platform secured by validators is an interesting way for Cosmonauts to connect.
+Another function of Desmos is to serve as a testbed of different interesting parameters and governance methods. Desmos is suitable for performing this role as we expect it will process quite some meaningful transactions early on.
 
-After experiencing various blockchain projects, we hope to make Desmos a “validators first” project. We believe engaging validators are crucial to the success of Desmos, as they are not only our security guards but also our community builders. This is particularly important to a social network-specific chain like Desmos. We will design our incentivized program and fundraiser to reflect this “validators first” philosophy.
+As part of the internet of blockchains, Desmos will also act as a regional Hub in South China and Southeast Asia. 
+
+We will bootstrap early engaging users of Desmos by building a decentralized microblogging platform on top of Big Dipper which is a popular block explorer for Cosmos ecosystem. This platform allows various types of tokens holders within the internet of blockchains can communicate in a decentralized, secured and verifiable manner.
+
+Validators are important to the blockchain space. We hope to make the early stage Desmos a “validators first” project. Engaging validators are crucial to the success of Desmos, as they are not only the security providers but also community builders. We will design our incentivized program and fundraiser to reflect this “validators first” philosophy.
 
 ## Problem Statement
 
@@ -75,7 +79,11 @@ Desmos has an initiative to build an ecosystem of decentralized social networks.
 
 ## Solutions - An Oveview
 
+The root of the corruption of centralized social networks is their business model. They are destined to infringe users’ privacy as this is their source of income. They have an inborn conflict of interests with their users. 
 
+Our solution is to provide the backbone for social networks to improve their business model. By changing the dynamics between various users and stakeholders of the social networks, we can develop a stronger goal congruence between the social networks and their users.
+
+We define the value of a particular social network as the aggregation of the users’ engagements that have happened on that network. With the help of tokenization, users can obtain their stakes in the network by making engagements. Tokenomics will enable a meta-moderation system based on incentive and penalty to improve the quality of users’ engagements.
 
 ## Desmos
 
