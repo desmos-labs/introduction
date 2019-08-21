@@ -77,7 +77,7 @@ The root of the above problems is the structural deficiency of the business mode
 
 Desmos has an initiative to build an ecosystem of decentralized social networks. We advocate for a new business model and a new mindset of social networking.
 
-## Solutions - An Oveview
+## Solutions - An Overview
 
 The root of the corruption of centralized social networks is their business model. They are destined to infringe users’ privacy as this is their source of income. They have an inborn conflict of interests with their users. 
 
