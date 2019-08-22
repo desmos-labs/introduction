@@ -61,7 +61,7 @@ NOTE: This document is a work-in-progress and we are still actively developing i
 
 ## Summary
 
-Centralized social networks are corrupt. They infringe users’ benefits to maximize their own profits. We believe a social network of the users, by the users, for the users will reshape the scene. Our solution is to provide the backbone for social networks to improve their business model in order to develop a stronger goal congruence between the social networks and their users.
+Centralized social networks are corrupt. They infringe users’ benefits to maximize their own profits. Our solution is to provide the backbone for social networks to improve their business model in order to develop a stronger goal congruence between the social networks and their users.
 
 Desmos [ˈdɛsmɒs] is a public blockchain for social media applications. It is similar to Cosmos Hub with different staking and minting modules. It also introduces new modules which are specifically designed for reputation-centric decentralized social networking. One of these modules is Magpie, which provides identity and accountability to validators, delegators and other types of stakeholders with a novel and generalizable temporary key pair using browser-based WASM.
 
