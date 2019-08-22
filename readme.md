@@ -34,6 +34,8 @@ NOTE: This document is a work-in-progress and we are still actively developing i
       - [NFT](#nft)
     - [Web Assembly (WASM)](#web-assembly-wasm)
   - [Phanero](#phanero)
+    - [Decentralized Microblogging](#decentralized-microblogging)
+    - [Phanero as fee token](#phanero-as-fee-token)
     - [Minting of Phanero](#minting-of-phanero)
   - [Initial distribution of Desmos](#initial-distribution-of-desmos)
     - [Initial supply](#initial-supply)
@@ -253,6 +255,12 @@ We will be using the [Cosmos NFT module](https://github.com/cosmos/cosmos-sdk/tr
 Send Desmos transactions from the client side. It includes a key manager and functions of broadcasting tranasctions.
 
 ## Phanero
+
+### Decentralized Microblogging
+
+Adoption of technology usually starts with a handful of visionaries. We will acquire the early users of Desmos by building a microblogging platform on top of Big Dipper to solve one pain point: the existing and new validators and delegators do not have a way to communicate with each other through a verifiable manner. As Big Dipper is one of the most popular block explorers for Cosmos ecosystem, many people who are interested in Cosmos will definitely visit Big Dipper. A decentralized microblogging platform secured by validators is an interesting way for these users to connect. 
+
+### Phanero as fee token
 
 Phanero [fəˈnærəʊ] is the fee token on the microblogging platform. The name is inspired from Ancient Greek phanerós (φανερός) which means “visible, manifest, evident”. We first knew about this word from Jae Kwon, the cofounder of Cosmos, in his speech in CryptoEconomics Security Conference 2017 (click [here](https://youtu.be/8Eex-wQ5yYU?t=23) for the speech):
 
