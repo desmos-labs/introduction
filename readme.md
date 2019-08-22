@@ -73,17 +73,19 @@ Validators are important to the blockchain space. We hope to make the early stag
 
 Social networks have created more problems than before. These include the surging number of scams and spams, fakes news, the security loopholes, the privacy breaches and the oligopolistic behaviours of a handful of social network behemoths that infringe users’ interests and harm the industry as a whole.
 
-The root of the above problems is the structural deficiency of the business model of these centralized social networks. We believe a social network of the users, by the users, for the users will be a solution to reshape social network.
+Simply put, these centralized social networks are corrupt. 
 
 Desmos has an initiative to build an ecosystem of decentralized social networks. We advocate for a new business model and a new mindset of social networking.
 
 ## Solutions - An Overview
 
-The root of the corruption of centralized social networks is their business model. They are destined to infringe users’ privacy as this is their source of income. They have an inborn conflict of interests with their users. 
+The root of the corruption of centralized social networks is their business model. They are destined to infringe users’ privacy as this is their source of income. There is an inborn conflict of interests between social networks and their users. 
 
-Our solution is to provide the backbone for social networks to improve their business model. By changing the dynamics between various users and stakeholders of the social networks, we can develop a stronger goal congruence between the social networks and their users.
+We believe a social network of the users, by the users, for the users will reshape the scene. Our solution is to provide the backbone for social networks to improve their business model. By changing the dynamics between various users and stakeholders of the social networks, we can develop a stronger goal congruence between the social networks and their users.
 
 We define the value of a particular social network as the aggregation of the users’ engagements that have happened on that network. With the help of tokenization, users can obtain their stakes in the network by making engagements. Tokenomics will enable a meta-moderation system based on incentive and penalty to improve the quality of users’ engagements.
+
+We achieve the above goal through Desmos, which is a public blockchain specifically designed for social media applications. The first application of Desmos will be supporting a decentralized microblogging platform.
 
 ## Desmos
 
@@ -91,7 +93,7 @@ The name Desmos was inspired from Ancient Greek desmós (δεσμός) which mea
 
 ### Desmos as a chain
 
-Desmos the chain is specifically designed for social networking apps. It is built with Cosmos SDK and use Tendermint as consensus engine. While it is very similar to Cosmos Hub, we would like to use it as a testbed of some interesting and experimental settings that may be too costly to be performed on Cosmos Hub. Initially, we would like to test a new inflation rate, a new calculation of share of voting power and implement minimum commission rate.
+Desmos the chain is specifically designed for social media applications. It is built with Cosmos SDK and use Tendermint as consensus engine. While it is very similar to Cosmos Hub, we would like to use it as a testbed of some interesting and experimental settings that may be too costly to be performed on Cosmos Hub. Initially, we would like to test a new inflation rate, a new calculation of share of voting power and implement minimum commission rate.
 
 #### Inflation
 
