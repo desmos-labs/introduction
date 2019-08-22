@@ -345,7 +345,7 @@ The limit of validator set at genesis will depend on the performance of the test
 
 ### Forbole Limited
 
-Forbole Limited (“Forbole”) is a for-profit company limited incorporated in Hong Kong in Oct 2017. The main businesses of Forbole will be technology solution service and digital asset management. Forbole is the team to initiate Desmos and Big Dipper.
+Forbole Limited (“Forbole”) is a for-profit company limited incorporated in Hong Kong in Oct 2017. The main businesses of Forbole will be staking-as-a-service and technology solution. Forbole is the team to work on Desmos and Big Dipper.
 
 ### Big Dipper
 
