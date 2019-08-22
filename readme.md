@@ -49,8 +49,6 @@ NOTE: This document is a work-in-progress and we are still actively developing i
       - [Second round (20%):](#second-round-20)
       - [Third round (30%):](#third-round-30)
   - [Validators](#validators)
-  - [Development Plan](#development-plan)
-    - [Marketing](#marketing)
   - [Organization and projects](#organization-and-projects)
     - [Forbole Limited](#forbole-limited)
     - [Big Dipper](#big-dipper)
@@ -288,7 +286,7 @@ The minting method of Phanero can be changed by on-chain governance of Desmos.
 
 ## Initial distribution of Desmos
 
-On most of the PoS blockchains, the distribution of tokens has a tremendous impact on the degree of decentralization. We hope to provide a fairer chance for different people to participate through different types of efforts while ensure the security level of the chain.
+On most blockchains, the initial distribution of tokens has a tremendous impact on the degree of decentralization later on. We hope to provide a fairer chance for different people to participate through different types of efforts while ensure the security level of the chain.
 
 ### Initial supply 
 
@@ -296,11 +294,11 @@ The initial supply will be around 100,000,000 Desmos. This will be distributed i
 
 #### A foundation: 15%
 
-[Note: We are considering both non-profit or  profit type of entity which support the ecosystem by making investment to ecosystem project such that the foundation is self-sustainable. This is subject to further legal opinions.]
+[Note: We are considering both non-profit or profit type of entity which support the ecosystem by making investment to ecosystem project such that the foundation is self-sustainable. This is subject to further legal opinions.]
 
 #### Forbole: 12.5%
 
-- 5.0%: Incentive pool to early employees (including cofounding members)
+- 5.0%: Employees incentive pool
 - 7.5% to Forbole Limited
 
 #### Early supporters: 2.5%
@@ -317,11 +315,11 @@ See blow section.
 
 ### Fundraisers
 
-60% of the initial supply will be distributed throught three rounds of private fundraisers (through simple agreement for future tokens, “SAFT”) before mainnet launch.
+60% of the initial supply will be distributed through three rounds of private fundraisers (through simple agreement for future tokens, “SAFT”) before mainnet launch.
 
 #### First round (20%): 
 
-We target to raise USD1 million at USD5 million valuation cap. This round is strictly invited-only. The target SAFT buyers are the experienced and engaged validators and investors on Cosmos ecosystem chains.
+We target to raise USD 1 million at USD 5 million valuation cap. This round is strictly invited-only. The target SAFT buyers are the experienced and engaged validators and investors on Cosmos ecosystem chains.
 
 #### Second round (20%): 
 
@@ -336,10 +334,6 @@ We target to raise USD1 million at USD5 million valuation cap. This round is str
 We will invite validators with proven track records to join our first testnet. We believe the balance between diversity and quality is very important. As such, we will consider a basket of factors such as technical knowledge, community relationships, languages and locations. 
 
 The limit of validator set at genesis will depend on the performance of the testnets.
-
-## Development Plan
-
-### Marketing
 
 ## Organization and projects
 
@@ -377,6 +371,9 @@ We are expanding our distributed team across the globe. If you share the same vi
 
 | Time  | Milestones |
 | --- | ---|
-| Aug - Sept 2019 | Communicate with potential partnering validators and community contributors |
-| Before Sept 2019 | Officially announce Desmos project |
-| Nov 2019 | launch the first incentivised testnet |
+| Sept 2019 | Communicate with potential partnering validators and community contributors |
+| Oct 2019 | Launch the first public testnet |
+| Nov 2019 | Launch the first technical incentivised program |
+| Dec 2019 | Completed the first round of fundraiser |
+
+2020: to be continued... ...
