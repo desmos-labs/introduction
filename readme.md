@@ -59,13 +59,13 @@ NOTE: This document is a work-in-progress and we are still actively developing i
 
 ## Summary
 
-Desmos [ˈdɛsmɒs] is a public blockchain for social media applications. It is similar to Cosmos Hub with different staking and minting modules. It also introduces new modules which are specifically designed for reputation-centric decentralized social networking. 
+Centralized social networks are corrupt. They infringe users’ benefits to maximize their own profits. We believe a social network of the users, by the users, for the users will reshape the scene. Our solution is to provide the backbone for social networks to improve their business model in order to develop a stronger goal congruence between the social networks and their users.
 
-Another function of Desmos is to serve as a testbed of different interesting parameters and governance methods. Desmos is suitable for performing this role as we expect it will process quite some meaningful transactions early on.
+Desmos [ˈdɛsmɒs] is a public blockchain for social media applications. It is similar to Cosmos Hub with different staking and minting modules. It also introduces new modules which are specifically designed for reputation-centric decentralized social networking. One of these modules is Magpie, which provides identity and accountability to validators, delegators and other types of stakeholders with a novel and generalizable temporary key pair using browser-based WASM.
 
-As part of the internet of blockchains, Desmos will also act as a regional Hub in South China and Southeast Asia. 
+Desmos is also a testbed of different interesting parameters and governance methods. Desmos is suitable for performing this role as we expect it will process quite some meaningful transactions early on. Furthermore, as part of the internet of blockchains, Desmos will act as a regional Hub in South China and Southeast Asia. 
 
-We will bootstrap early engaging users of Desmos by building a decentralized microblogging platform on top of Big Dipper which is a popular block explorer for Cosmos ecosystem. This platform allows various types of tokens holders within the internet of blockchains can communicate in a decentralized, secured and verifiable manner.
+We will acquire early engaging users of Desmos by building a decentralized microblogging platform on top of Big Dipper which is a popular block explorer for Cosmos ecosystem. This platform allows various types of tokens holders within the internet of blockchains to communicate in a decentralized, secured and verifiable manner.
 
 Validators are important to the blockchain space. We hope to make the early stage Desmos a “validators first” project. Engaging validators are crucial to the success of Desmos, as they are not only the security providers but also community builders. We will design our incentivized program and fundraiser to reflect this “validators first” philosophy.
 
