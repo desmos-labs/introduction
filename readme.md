@@ -315,11 +315,13 @@ See blow section.
 
 ### Fundraisers
 
-60% of the initial supply will be distributed through three rounds of private fundraisers (through simple agreement for future tokens, “SAFT”) before mainnet launch.
+60% of the initial supply will be distributed through three rounds of fundraisers (through simple agreement for future tokens, “SAFT”) before mainnet launch. Each of these rounds may consist of sub-rounds. 
+
+The design philosophy of the early fundraisers is to ensure there is a beautiful balance of decentralization, network security, fair participation and sustainability. As such, the target SAFT buyers in early stage are the individual validators, developers, community builders and investors in blockchain/crypto space that are also interested to contribute to Desmos project like founding members. 
 
 #### First round (20%): 
 
-We target to raise USD 1 million at USD 5 million valuation cap. This round is strictly invited-only. The target SAFT buyers are the experienced and engaged validators and investors on Cosmos ecosystem chains.
+For the first round, we target to raise USD 1 million at USD 5 million valuation cap. This round is strictly invited-only. Each independent individual can purchase up to [1 million Desmos (USD 50,000)].
 
 #### Second round (20%): 
 
