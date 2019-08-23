@@ -373,7 +373,7 @@ We are expanding our distributed team across the globe. If you share the same vi
 
 | Time  | Milestones |
 | --- | ---|
-| Sept 2019 | Communicate with potential partnering validators and community contributors |
+| Sept 2019 | Communicate with potential validators, developers and community contributors |
 | Oct 2019 | Launch the first public testnet |
 | Nov 2019 | Launch the first technical incentivised program |
 | Dec 2019 | Completed the first round of fundraiser |
