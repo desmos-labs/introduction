@@ -1,6 +1,6 @@
 # Desmos
 
-__a social networking ecosystem of the users, by the users, for the users__
+__social networks of the users, by the users, for the users__
 
 Kwun Yeung (kwun@forbole.com)\
 Terence Lam (terence@forbole.com)
