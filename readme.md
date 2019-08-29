@@ -18,6 +18,7 @@ NOTE: This document is a work-in-progress and we are still actively developing i
     - [Desmos as a chain](#desmos-as-a-chain)
       - [Inflation](#inflation)
       - [Gini-sensitive sublinear voting power](#gini-sensitive-sublinear-voting-power)
+        - [VP<sub>(eff)</sub> = (1 - G^3) * VP<sub>(linear)</sub> + G^3 * VP<sub>(log)</sub> , where:](#vpsubeffsub--1---g3--vpsublinearsub--g3--vpsublogsub--where)
         - [Scenario 1: Cosmos Hub as of 30 Jul 2019](#scenario-1-cosmos-hub-as-of-30-jul-2019)
         - [Scenario 2](#scenario-2)
         - [Scenario 3](#scenario-3)
@@ -214,6 +215,17 @@ MsgUpdateProfile
 #### Reputation
 
 The `Reputation` module calculates the reputation of a user based on the activities she has done. This feature will be used by other modules to update users' reputations for every chain they have registered on Desmos.
+
+A user's reputation is related to the following aspects.
+
+1. Activity
+2. Post attention
+3. No. followers
+4. No. likes
+5. No. comments
+6. No. of shares
+
+The reputation should be a time sensitive figure. A user will lose reputation if she is not active in the community for a period of time.
 
 #### Post
 
