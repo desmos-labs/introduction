@@ -257,12 +257,12 @@ The initial supply will be around 100,000,000 Desmos. This will be distributed i
 
 | Entities  | % of supply |
 | --- | ---:|
-| A Foundation | `15.0%` |
-| Forbole | `12.5%` |
+| A Foundation | `12.5%` |
+| Forbole | `10.0%` |
 | Employee Incentive | `5.0%` |
 | Early supporters | `2.5%`  |
 | Community Pool | `10.0%`  |
-| Fundraisers | `55.0%`  |
+| Fundraisers | `60.0%`  |
 
 #### Foundation
 
@@ -294,7 +294,7 @@ This is a round for the participants of Round-0 to invest more after they have g
 
 Remaining portion of Round-1b (if any) will be opened for other interested parties probably those who have joined the testnet but missed the previous rounds after about 1 month of Round-1a at a valuation cap of USD 15 million.
 
-#### Third round (15%-30%): 
+#### Third round (20%-40%): 
 
 This will be the last round before mainnet launch. Our target mainnet launch will be happened 12 months after the completion of Round-0.
 
