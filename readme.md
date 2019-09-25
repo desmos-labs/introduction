@@ -16,13 +16,6 @@ NOTE: This document is a work-in-progress and we are still actively developing i
   - [Solutions - An Overview](#solutions---an-overview)
   - [Desmos](#desmos-1)
     - [Desmos as a chain](#desmos-as-a-chain)
-      - [Inflation](#inflation)
-      - [Gini-sensitive sublinear voting power](#gini-sensitive-sublinear-voting-power)
-        - [VP<sub>(eff)</sub> = (1 - G^3) * VP<sub>(linear)</sub> + G^3 * VP<sub>(log)</sub> , where:](#vpsubeffsub--1---g3--vpsublinearsub--g3--vpsublogsub--where)
-        - [Scenario 1: Cosmos Hub as of 30 Jul 2019](#scenario-1-cosmos-hub-as-of-30-jul-2019)
-        - [Scenario 2](#scenario-2)
-        - [Scenario 3](#scenario-3)
-      - [Minimum commission rate](#minimum-commission-rate)
     - [Desmos as a token](#desmos-as-a-token)
     - [Modules](#modules)
       - [Magpie](#magpie)
@@ -46,9 +39,6 @@ NOTE: This document is a work-in-progress and we are still actively developing i
       - [Community Pool: 10%](#community-pool-10)
       - [Fundraisers: 60%](#fundraisers-60)
     - [Fundraisers](#fundraisers)
-      - [First round (20%):](#first-round-20)
-      - [Second round (20%):](#second-round-20)
-      - [Third round (30%):](#third-round-30)
   - [Validators](#validators)
   - [Organization and projects](#organization-and-projects)
     - [Forbole Limited](#forbole-limited)
@@ -94,55 +84,21 @@ The name Desmos was inspired from Ancient Greek desmós (δεσμός) which mea
 
 ### Desmos as a chain
 
-Desmos the chain is specifically designed for social media applications. It is built with Cosmos SDK and use Tendermint as consensus engine. While it is very similar to Cosmos Hub, we would like to use it as a testbed of some interesting and experimental settings that may be too costly to be performed on Cosmos Hub. Initially, we would like to test a new inflation rate, a new calculation of share of voting power and implement minimum commission rate.
+Desmos is a blockchain in the Cosmos ecosystem specific for social networking apps. It uses game theory and on-chain governance to decentralize the business model of social network which prioritize the interests of users. Its position is like Cosmos Hub but with different inflation, reward distribution and validator set. We are studying the feasibility of these interesting settings:
 
 #### Inflation
 
-We will use the same calculation method for inflation as that of Cosmos Hub. The difference is that we will halve the range of “7% to 20%” to “3.5% to 10%”. We expect Desmos will process meaningful transactions in terms of tokenized social network engagements early on and hence this new inflation rate is sufficient to incentivize staking while avoiding too much dilution on the intrinsic value of Desmos token.
+Can we use fixed inflation amount (eg. 8 million Desmos per year) to make the inflation rate to decrease over time? 
 
-#### Gini-sensitive sublinear voting power
+#### Reward Distribution
 
-Decentralization is a controversial topic on every blockchain. Once the share of voting power is not sufficiently decentralized, it may create problems like the rich get richer which may then discourage the participation of validators with less financial resources.
+Is that possible that all validators to share the same amount of rewards? Here is an example. Assuming there is 50 validators and there is 22,000 Desmos as reward for each day, then each validators will receive 440 Desmos. 
 
-We introduce a modified method to calculate the share of voting power to encourage Desmos hodlers (which include validators with skin in the game) to distribute their delegations across a number of validators. Under the new scheme, the effective share of voting power of a validator, VP<sub>(eff)</sub>, will be calculated as follows:
+This will create a built-in force to equalize the commissions to disincentivize price war.
 
-##### VP<sub>(eff)</sub> = (1 - G^3) * VP<sub>(linear)</sub> + G^3 * VP<sub>(log)</sub> , where:
+#### Validators set
 
-   1. VP<sub>(linear)</sub> is the share of voting power when it is calculated using normal voting power<br>
-   2. VP<sub>(log)</sub> is the share of voting power when it is calculated using the logarithm of voting power<br>
-   3. G is the Gini coefficient calculated based on the linear voting power across the active validators<br>
-
-Below is the scenario analysis for VP<sub>(eff)</sub> under various Gini coefficients.
-
-##### Scenario 1: Cosmos Hub as of 30 Jul 2019
-
-Gini coefficient = 0.68
-
-[![Case 1 Cosmos Hub](Gini-adjusted%20VP%20%20Case%201%20-%20Cosmos%20Hub.png)](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%201%20-%20Cosmos%20Hub.tsv)
-
-##### Scenario 2
-
-Gini coefficient = 0.248 (similar to Denmark in 2011)
-
-[![Case 2](Gini-adjusted%20VP%20Case%202.png)](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%202.tsv)
-
-##### Scenario 3
-
-Gini coefficient = 0.47 (similar to the United States in 2014)
-
-[![Case 3](Gini-adjusted%20VP%20Case%203.png)](https://github.com/desmos-labs/introduction/blob/master/Gini-adjusted%20VP%20Case%203.tsv)
-
-One of the possible downside of sublinear voting power is that it may encourage big Desmos holders to spread its own stake across multiple nodes. We try to mitigate this risk by:
-
-- Target our early-stage fundraising to validators with proven track record
-- Impose a more stringent cap to the investment allowed per participation
-- Allocate more distribution to a series of incentivised campaigns
-
-While this risk cannot be eliminated, we think this is a good experiment for the Cosmos ecosystem at large.
-
-#### Minimum commission rate
-
-(We are considering some mechanisms to avoid price war. We are interested in applying this [suggestion](https://forum.cosmos.network/t/proposal-are-validators-charging-0-commission-harmful-to-the-success-of-the-cosmos-hub/2505/33?u=bharvest) by Hyung of B-Harvest)
+Due to the fact that each validator will receive the same amount of reward for each block, we may need to use on-chain governance to  approve the revision of validator set when there is new proposal for this.
 
 ### Desmos as a token
 
@@ -294,7 +250,7 @@ The value of a social network is reflected by the sum of all quality users engag
 | Receive an external upvote | `+   2`  |
 | Receive an external downvote | `+   1`  |
 
-The minting method of Phanero can be changed by on-chain governance of Desmos.
+The minting method of Phanero will be decided by on-chain governance of Desmos.
 
 ## Initial distribution of Desmos
 
@@ -304,42 +260,35 @@ On most blockchains, the initial distribution of tokens has a tremendous impact 
 
 The initial supply will be around 100,000,000 Desmos. This will be distributed in stages in approximately 12 months after we officially announce the project. The target time for this announcement is before the end of Sept 2019.
 
-#### A foundation: 15%
-
-[Note: We are considering both non-profit or profit type of entity which support the ecosystem by making investment to ecosystem project such that the foundation is self-sustainable. This is subject to further legal opinions.]
+#### A Foundation: 15%
 
 #### Forbole: 12.5%
 
-- 5.0%: Employees incentive pool
-- 7.5% to Forbole Limited
+#### Employee Incentive: 5%
 
 #### Early supporters: 2.5%
 
-This group means the angel investors of Forbole who have made their investment on or before Oct 2018.
-
 #### Community Pool: 10%
 
-This pool will be distributed to qualified participants in a series of incentivised programs before the launch of mainnet. The timing of these programs will relate to various rounds of fundraisers such that our projects, our community and our stakeholders will grow and evolve together.
-
-#### Fundraisers: 60%
-
-See blow section.
+#### Fundraisers: 55%
 
 ### Fundraisers
 
-60% of the initial supply will be distributed through three rounds of fundraisers (through simple agreement for future tokens, “SAFT”) before mainnet launch. Each of these rounds may consist of sub-rounds. 
+People increasingly concern with the centralization problem of some blockchains. Some have argued that the seed of centralization has been sown in early fundraiser.
 
-The design philosophy of the early fundraisers is to ensure there is a beautiful balance of decentralization, network security, fair participation and sustainability. As such, the target SAFT buyers in early stage are the individual validators, developers, community builders and investors in blockchain/crypto space that are also interested to contribute to Desmos project like founding members. 
+Validators are more than security providers. They develop tools and build the community. They are Co-builders. We hope to make Desmos a “validators first” project. Our goal is to make validators to have a strong sense of ownership: we are co-building Desmos together.
 
-#### First round (20%): 
+#### Round-0 (10%-20%): 
 
-For the first round, we target to raise USD 1 million at USD 5 million valuation cap. This round is strictly invited-only. Each independent individual can purchase up to [1 million Desmos (USD 50,000)].
+In this round, we target to raise USD 1 million at USD 5 million valuation cap. This round is strictly invited-only. We call it "Co-buiders" round. We want to invite 1-0-50 reputable validators/delegators to acquire skin in the game in this earliest fundraiser. Each independent individual can purchase up to [1 million Desmos (USD 50,000)].
 
-#### Second round (20%): 
+#### Second round (10%-20%): 
+
+This is a round for the participants of Round-0 to invest more after they have gained more confidence in the project. Remaining portion will be opened for other interested parties, probably those who have joined the testnet but missed the previous round.
 
 [to be announced]
 
-#### Third round (30%): 
+#### Third round (15%-30%): 
 
 [to be announced]
 
@@ -385,9 +334,9 @@ We are expanding our distributed team across the globe. If you share the same vi
 
 | Time  | Milestones |
 | --- | ---|
-| Sept 2019 | Communicate with potential validators, developers and community contributors |
-| Oct 2019 | Launch the first public testnet |
-| Nov 2019 | Launch the first technical incentivised program |
-| Dec 2019 | Completed the first round of fundraiser |
+| Oct 2019 | Communicate with potential validators, developers and community contributors |
+| Oct 2019 | Launch the first private testnet |
+| Nov 2019 | Launch the first public testnet |
+| Dec 2019 | Deadline for Round-0 of fundraiser |
 
 2020: to be continued... ...
