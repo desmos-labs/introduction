@@ -255,17 +255,26 @@ On most blockchains, the initial distribution of tokens has a tremendous impact 
 
 The initial supply will be around 100,000,000 Desmos. This will be distributed in stages in approximately 12 months after we officially announce the project. The target time for this announcement is before the end of Sept 2019.
 
-#### A Foundation: 15%
+| Entities  | % of supply |
+| --- | ---:|
+| A Foundation | `15.0%` |
+| Forbole | `12.5%` |
+| Employee Incentive | `5.0%` |
+| Early supporters | `2.5%`  |
+| Community Pool | `10.0%`  |
+| Fundraisers | `55.0%`  |
 
-#### Forbole: 12.5%
+#### Foundation
 
-#### Employee Incentive: 5%
+The Foundation (to be setup) is similar to ICF but with a more specific focus on developing blockchain as a career through education. Our focus is to promote the development of tools and applications for the new internet: the Interchain. 
 
-#### Early supporters: 2.5%
+#### Community
 
-#### Community Pool: 10%
+Most of the other projects allocate a tiny amount for community incentives. This may due to a lot of structural or adminsitrative reasons. But according to our experience as a contributor and validator to other blockchain projects, we understand the importance of community incentive. We decided to set a staggering 10% pool for this.
 
-#### Fundraisers: 55%
+2.5% is for a guaranteed reward to validators in early stage. Our current target is to support during the 12 months testnet period before mainnet and then another 12 months after mainnet. 
+
+7.5% is for a series of incentivized programs about staking, development and community building. We expect more than half of them will be allocated before the mainnet launch.
 
 ### Fundraisers
 
@@ -277,15 +286,17 @@ Validators are more than security providers. They develop tools and build the co
 
 In this round, we target to raise USD 1 million at USD 5 million valuation cap. This round is strictly invited-only. We call it "Co-buiders" round. We want to invite 1-0-50 reputable validators/delegators to acquire skin in the game in this earliest fundraiser. Each independent individual can purchase up to [1 million Desmos (USD 50,000)].
 
-#### Second round (10%-20%): 
+#### Round-1a (10%-20%): 
 
-This is a round for the participants of Round-0 to invest more after they have gained more confidence in the project. Remaining portion will be opened for other interested parties, probably those who have joined the testnet but missed the previous round.
+This is a round for the participants of Round-0 to invest more after they have gained more confidence in the project. We plan to start this round 3 months after Round-0 at a valuation cap of USD 10 million.
 
-[to be announced]
+#### Round-1b (0-20%):
+
+Remaining portion of Round-1b (if any) will be opened for other interested parties probably those who have joined the testnet but missed the previous rounds after about 1 month of Round-1a at a valuation cap of USD 15 million.
 
 #### Third round (15%-30%): 
 
-[to be announced]
+This will be the last round before mainnet launch. Our target mainnet launch will be happened 12 months after the completion of Round-0.
 
 ## Validators
 
