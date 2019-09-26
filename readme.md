@@ -1,11 +1,13 @@
 # Desmos
 
-__social networks of the users, by the users, for the users__
+**social networks of the users, by the users, for the users**
 
 Kwun Yeung (kwun@forbole.com)\
 Terence Lam (terence@forbole.com)
 
 **NOTE: This document is a work-in-progress and we are still actively developing it. All of the contents are subject to change. Your feedback is highly appreciated. Please check our update regularly.**
+
+If you are interested to participate this project, feel free to indicate it by submitting this [Desmos Co-Builders Sale form](https://docs.google.com/forms/d/e/1FAIpQLScLTrzVWRBUEIK5yCatpSpPVbl2G5b16_KvynldjATIu9fc4Q/viewform) (non-binding)
 
 ## Table of Contents
 
