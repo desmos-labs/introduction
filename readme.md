@@ -5,7 +5,7 @@ __social networks of the users, by the users, for the users__
 Kwun Yeung (kwun@forbole.com)\
 Terence Lam (terence@forbole.com)
 
-NOTE: This document is a work-in-progress and we are still actively developing it. All of the contents are subject to change. Your feedback is highly appreciated. Please check our update regularly.
+**NOTE: This document is a work-in-progress and we are still actively developing it. All of the contents are subject to change. Your feedback is highly appreciated. Please check our update regularly.**
 
 ## Table of Contents
 
@@ -253,6 +253,8 @@ On most blockchains, the initial distribution of tokens has a tremendous impact 
 
 ### Initial supply 
 
+**NOTE: This document is a work-in-progress and we are still actively developing it. All of the contents are subject to change. Your feedback is highly appreciated. Please check our update regularly.**
+
 The initial supply will be around 100,000,000 Desmos. This will be distributed in stages in approximately 12 months after we officially announce the project. The target time for this announcement is before the end of Sept 2019.
 
 | Entities  | % of supply |
@@ -277,6 +279,8 @@ Most of the other projects allocate a tiny amount for community incentives. This
 7.5% is for a series of incentivized programs about staking, development and community building. We expect more than half of them will be allocated before the mainnet launch.
 
 ### Fundraisers
+
+**NOTE: This document is a work-in-progress and we are still actively developing it. All of the contents are subject to change. Your feedback is highly appreciated. Please check our update regularly.**
 
 People increasingly concern with the centralization problem of some blockchains. Some have argued that the seed of centralization has been sown in early fundraiser.
 
