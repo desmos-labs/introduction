@@ -344,9 +344,10 @@ We are expanding our distributed team across the globe. If you share the same vi
 
 | Time  | Milestones |
 | --- | ---|
-| Oct 2019 | Communicate with potential validators, developers and community contributors |
+| Sep 2019 | Start communication with potential validators, developers and community contributors |
 | Oct 2019 | Launch the first private testnet |
 | Nov 2019 | Launch the first public testnet |
-| Dec 2019 | Deadline for Round-0 of fundraiser |
+| Nov 2019 | Finalize Round-0 fundriaser details|
+| Dec 2019 | Close Round-0 fundraiser |
 
 2020: to be continued... ...
